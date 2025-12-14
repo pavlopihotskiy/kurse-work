@@ -2,5 +2,8 @@ fastapi
 uvicorn
 numpy
 librosa
-soundfile
+tensorflow
 python-multipart
+soundfile
+scikit-learn
+jinja2

@@ -1,10 +1,7 @@
 SAMPLE_RATE = 16000
 N_MFCC = 13
 
-ALLOWED_EXTENSIONS = (".wav", ".mp3")
+CLASSES = ["yes", "no"]
 
-CLASSES = [
-    "yes",
-    "no",
-    "noise"
-]
+MODEL_PATH = "model/yes_no_model.tflite"
+ALLOWED_EXTENSIONS = (".wav", ".mp3")
